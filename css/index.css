@@ -1,0 +1,66 @@
+#container{
+	min-width:320px;
+	min-height:480px;
+	margin:0px auto;
+	
+}
+header{
+	overflow:hidden;
+}
+header div.logo{
+	float:left;
+	margin-top:10px;
+}
+header div.opendoor{
+	float:right;
+	color:#664735;
+	font-size:16px;
+	font-weight:bold;
+	margin-top:10px;
+	margin-right:5px;
+}
+section.banner img{
+	width:100%;
+	height:auto;
+}
+nav{
+	overflow:hidden;
+	background:url(../images/navbg.png) repeat-x bottom left;
+}
+nav li{
+	float:left;
+	width:25%;
+	text-align:center;
+}
+section.content{
+	overflow:hidden;
+}
+.leftcontent{
+	float:left;
+	width:175px;
+}
+.rightcontent{
+	float:right;
+	width:145px;
+	color:#fff;
+	background-image:linear-gradient(to bottom,#fed940,#ffa312);
+
+}
+footer{
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+}
+footer li{
+	float:left;
+	width:25%;
+	text-align:center;
+	background:url(../images/nav.jpg) repeat-x bottom left;
+}
+footer li:hover{
+	background:url(../images/nav01.jpg) repeat-x bottom left;
+}
+footer li a{
+	display:block;
+}
